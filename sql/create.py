@@ -9,7 +9,6 @@ class Staging:
     customer_id INTEGER,
     storage_id INT,
     date_id integer,
-    space_qty_id INTEGER,
     action_id INTEGER,
     space_qty INTEGER,
     charge_per_space REAL,
