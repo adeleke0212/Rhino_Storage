@@ -2,10 +2,9 @@ documentation.txt
 .env
 /Datasets
 /RenoPractice
-env
-gitignore
+.env
 transform.sql
 public_insert.py
-sql/__init__.py
-sql/__pycache__
+/sql/__init__.py
+/sql/__pycache__
 
