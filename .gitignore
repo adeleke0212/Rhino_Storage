@@ -7,5 +7,6 @@ transform.sql
 public_insert.py
 /sql/__init__.py
 /sql/__pycache__
+/__pycache__
 
  
