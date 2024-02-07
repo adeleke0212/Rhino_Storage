@@ -88,23 +88,6 @@ def createAllTables():
 
 createAllTables()
 
-# so import error importing my csv into pgadmin, now attempting loading my dataframe into
-# postgress using sqlalchemy - first step pip install sqlalchemy-more on documentation.txt
-
-
-# communication between sqlalchemy conn and postgrees DB using the driver psycopg2
-
-# engine = create_engine(dialect+driver://username:password@host:port/database_name)
-
-# call my psycopg2 connection
-
-# conn = connect_database()
-
-# establish sql alchemy connection
-
-
-# engine = create_engine("postgresql+psycopg2://scott:tiger@localhost:5432/mydatabase")
-# dialect+driver://username:password@host:port/database
 
 def connectAndLoadAddress():
     engine = create_engine(
