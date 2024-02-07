@@ -108,19 +108,7 @@ def createAllTables():
     storagesDims()
 
 
-# createAllTables()
-
-# so import error importing my csv into pgadmin, now attempting loading my dataframe into
-# postgress using sqlalchemy - first step pip install sqlalchemy-more on documentation.txt
-
-
-# communication between sqlalchemy conn and postgrees DB using the driver psycopg2
-
-# engine = create_engine(dialect+driver://username:password@host:port/database_name)
-
-# call my psycopg2 connection
-
-# I have loaded all tables into the database, using sql alchemy create-engine syntax, check public_create.py and public_load.py
+createAllTables()
 
 
 # Insert into my schema.tables by selecting data from public tables(imported csv files)
